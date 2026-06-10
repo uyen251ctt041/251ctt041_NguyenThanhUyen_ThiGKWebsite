@@ -1,0 +1,128 @@
+ *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+
+
+        body{
+    font-family:Arial,sans-serif;
+    background:#fffaf5;
+}
+
+header{
+    background:#9a6a43;
+    color:white;
+    padding:15px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+
+        header{
+            background:#9b6b43;
+            color:white;
+            padding:15px 30px;
+        }
+
+        header h1{
+            font-size:40px;
+        }
+
+        header p{
+            font-size:14px;
+        }
+
+        nav{
+            background:#d8c3a5;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:black;
+            margin:0 15px;
+            padding:10px;
+        }
+
+        nav a:hover{
+            color:white;
+            background:#9b6b43;
+            border-radius:5px;
+        }
+
+        .support-section{
+            display:flex;
+            justify-content:center;
+            padding:40px 0;
+        }
+
+        .support-box{
+            width:700px;
+            background:#d8c3a5;
+            padding:30px;
+            border-radius:20px;
+        }
+
+        .support-box h2{
+            text-align:center;
+            margin-bottom:25px;
+        }
+
+        form{
+            display:flex;
+            flex-direction:column;
+        }
+
+        label{
+            font-size:20px;
+            margin-top:15px;
+            margin-bottom:5px;
+        }
+
+        input{
+            height:40px;
+            border:none;
+            padding:10px;
+        }
+
+        textarea{
+            border:none;
+            padding:10px;
+            resize:none;
+            height:200px;
+        }
+
+        button{
+            width:120px;
+            margin:20px auto 0;
+            padding:10px;
+            border:none;
+            background:#9b6b43;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#7d5331;
+        }
+
+        footer{
+            background:#9b6b43;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
